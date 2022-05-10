@@ -13,7 +13,6 @@
 }
 
 body{
-    
     padding: 0;
     margin: 0;
     height: 100%;
@@ -47,7 +46,6 @@ footer img {
 .footer {
     width: 560px;
 }
-
 
 /* header{
     top: 0;
@@ -97,8 +95,6 @@ div .main .R{
     /* cursor: pointer; */
 }
 
-
-
 .main img:hover + .page-wrapper p{
     opacity: 1;
     transition: .5s ease-in;
@@ -109,7 +105,7 @@ p {
     color: white;
     transition: 1s ease-out;
     transition-delay: 6s;
-  }
+}
 
 .main img:hover{
     width: 480px;
@@ -121,8 +117,6 @@ p {
     margin:auto;
     opacity: 1;
 }
-
-
 
 .dp{
     animation: rotation 15s infinite linear;
@@ -137,33 +131,39 @@ p {
     }
 }
 
-
-#top, #bottom, #left, #right {
+#top, #bottom, #left, #right{
     background: #3FA9DF;
-    }
-    #left, #right {
-        position: fixed;
-        top: 0; bottom: 0;
-        width: 15px;
-        }
-        #left {
-            left: 0;
-        }
-        #right {
-            right: 0;
-        }
+}
+
+#left, #right{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+}
+
+#left{
+    left: 0;
+}
+
+#right{
+    right: 0;
+}
         
-    #top, #bottom {
-        position: fixed;
-        left: 0; right: 0;
-        height: 15px;
-        }
-        #top {
-            top: 0;
-        }
-        #bottom {
-            bottom: 0;
-        }
+#top, #bottom{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 15px;
+}
+        
+#top{
+    top: 0;
+}
+        
+#bottom{
+    bottom: 0;
+}
         
 @media screen and (max-width: 500px){
     #top, #bottom, #left, #right {
@@ -171,24 +171,27 @@ p {
     }
 }
 
-.page-wrapper {
+.page-wrapper{
     /* background-color: red; */
     align-items: center;
     justify-content: center;    
 }
-.row {
+
+.row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     /* width: 100%; */
 }
-.column {
+
+.column{
     display: flex;
     flex-direction: column;
     /* flex-basis: 100%; */
     flex: 1;
 }
-.column1 {
+
+.column1{
     color: white;
     font-family: 'hermes';
     font-size: 30px;
@@ -198,6 +201,7 @@ p {
     align-items: center; 
     justify-content: center;
 } 
+
 .column2 {
     color: white;
     font-family: 'hermes';
@@ -208,7 +212,8 @@ p {
     align-items: center; 
     justify-content: center;
 }
-.column3 {
+
+.column3{
     color: white;
     font-family: 'hermes';
     font-size: 30px;
@@ -270,8 +275,8 @@ p {
 
 
 
-.front {
-	position: absolute;
+.front{
+    position: absolute;
     z-index: 1;
 }
 
@@ -288,10 +293,9 @@ p {
 
 
 #home{
-	margin-left: 3%;
-	margin-top: 0;
+    margin-left: 3%;
+    margin-top: 0;
 }
-
 
 .cursor{
     width: 3rem;
@@ -302,9 +306,6 @@ p {
     transform: translate(-50%,-50%);
     pointer-events: none;
 }
-
-
-
 
 @media screen and (max-width: 768px){
     .main img{
