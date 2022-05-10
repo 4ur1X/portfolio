@@ -23,10 +23,10 @@ body{
     /* border: 12px solid #3FA9DF; */
 }
 
-header img {
+header img{
     max-width: 100%;
 }
-.header {
+.header{
     width: 560px;
     transition: width 0.2s;
 }
@@ -36,32 +36,39 @@ header img {
 
 
 
-#top, #bottom, #left, #right {
+#top, #bottom, #left, #right{
     background: #3FA9DF;
-    }
-    #left, #right {
-        position: fixed;
-        top: 0; bottom: 0;
-        width: 15px;
-        }
-        #left {
-            left: 0;
-        }
-        #right {
-            right: 0;
-        }
+}
+
+#left, #right{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+}
+
+#left{
+    left: 0;
+}
+
+#right{
+    right: 0;
+}
         
-    #top, #bottom {
-        position: fixed;
-        left: 0; right: 0;
-        height: 15px;
-        }
-        #top {
-            top: 0;
-        }
-        #bottom {
-            bottom: 0;
-        }
+#top, #bottom{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 15px;
+}
+        
+#top{
+    top: 0;
+}
+        
+#bottom{
+    bottom: 0;
+}
         
 @media screen and (max-width: 500px){
     #top, #bottom, #left, #right {
@@ -89,11 +96,11 @@ header img {
 }
 
 
-@keyframes rotation {
-    from {
+@keyframes rotation{
+    from{
       transform: rotate(0deg);
     }
-    to {
+    to{
       transform: rotate(359deg);
     }
 }
