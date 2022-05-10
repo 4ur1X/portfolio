@@ -137,6 +137,7 @@ p {
 
 #top, #bottom, #left, #right {
     background: #3FA9DF;
+	z-index: 100;
     }
     #left, #right {
         position: fixed;
@@ -170,7 +171,18 @@ p {
 
 
 
+.readme{
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: #3FA9DF;
+    border-radius: 6px;
+    padding: 6px;
+}
 
+.readme:hover{
+    background-color: white;
+}
 
 
 
