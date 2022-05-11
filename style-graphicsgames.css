@@ -27,6 +27,19 @@ a{
     text-decoration: none;
 }
 
+.readmore{
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3FA9DF;
+    color: black;
+}
+
+.readmore:hover{
+    color: white;
+}
+
 header img {
     max-width: 100%;
 }
